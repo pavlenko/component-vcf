@@ -1,0 +1,33 @@
+{
+    "config": {
+        "sort-packages": true
+    },
+    "name": "pe/component-vcf",
+    "keywords": ["vcard", "vcf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavlenko Eugeniy",
+            "email": "pavlenko.obs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "PE\\Component\\VCF\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PETest\\Component\\VCF\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
